@@ -1,11 +1,8 @@
-// Задача: Написати функцію, яка приймає рядок і замінює всі голосні (a, e, i, o, u) 
-// на певний символ, наприклад *.
-
 function replaceVowels(str) {
-  // Ваш код тут
+  return str.replace(/[aeiou]/gi, '*');
 }
 
-console.log(replaceVowels("hello world")); // Виведе: "h*ll* w*rld"
-console.log(replaceVowels("Javascript"));  // Виведе: "J*v*scr*pt"
+console.log(replaceVowels("hello world"));
+console.log(replaceVowels("Javascript"));
 
 module.exports = replaceVowels;

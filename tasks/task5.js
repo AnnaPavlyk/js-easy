@@ -10,7 +10,7 @@ function countOccurrences(str, char) {
   return count;
 }
 
-console.log(countOccurrences("hello world", 'o')); 
-console.log(countOccurrences("banana", 'a'));
+console.log(countOccurrences("hello world", 'o'));  // 2
+console.log(countOccurrences("banana", 'a'));       // 3
 
 module.exports = countOccurrences;

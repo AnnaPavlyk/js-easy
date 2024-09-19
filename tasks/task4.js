@@ -10,7 +10,7 @@ function findMax(numbers) {
   return max;
 }
 
-console.log(findMax([3, 5, 7, 2, 8]));
-console.log(findMax([10, 20, 5, 30])); 
+console.log(findMax([3, 5, 7, 2, 8]));  // 8
+console.log(findMax([10, 20, 5, 30]));  // 30
 
 module.exports = findMax;

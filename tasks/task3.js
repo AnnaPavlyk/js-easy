@@ -7,7 +7,7 @@ function sumArray(numbers) {
   return sum;
 }
 
-console.log(sumArray([1, 2, 3, 4, 5]));
-console.log(sumArray([10, 20, 30])); 
+console.log(sumArray([1, 2, 3, 4, 5]));  // 15
+console.log(sumArray([10, 20, 30]));     // 60
 
 module.exports = sumArray;
